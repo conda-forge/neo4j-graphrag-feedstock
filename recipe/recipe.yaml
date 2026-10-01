@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: neo4j-graphrag
-  version: "1.12.0"
+  version: "1.22.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/neo4j_graphrag-${{ version }}.tar.gz
-  sha256: 17625c403907e38be65d465354d1d19ff466b30a4449ffe93f9a6d5b5578d974
+  sha256: 01bd2f4253048f0151b33f122d5016d167317c44b1c3c45bc66e3e38b47cb1d5
 
 build:
   number: 0
